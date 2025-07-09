@@ -31,3 +31,26 @@ student.greetings1 = function () {
 // console.log(student);
 // console.log(student.greetings());
 // console.log(student.greetings1());
+
+const obj4 = new Object();
+console.log(typeof obj4);
+obj4.name = "Uday Goel";
+console.log(obj4.name);
+
+const testObj1 = {
+  1: "a",
+  2: "b",
+};
+
+const testObj2 = {
+  3: "a",
+  4: "b",
+};
+
+const object3 = Object.assign({}, testObj1, testObj2);
+// console.log(object3);
+
+// console.log({ ...testObj1, ...testObj2 });
+
+// console.log(Object.keys(testObj1));
+// console.log(Object.values(testObj1));
